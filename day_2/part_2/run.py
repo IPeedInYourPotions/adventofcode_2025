@@ -40,7 +40,7 @@ def get_invalid_ids(id_range: str) -> list[str]:
             invalid_ids.append(id)
     return invalid_ids
 
-def main():
+def run():
     print("This is Day 2, Part 1!")
     input = read_input(input_file)[0]
     id_ranges = input.strip().split(',')
@@ -53,5 +53,5 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    run()
     
