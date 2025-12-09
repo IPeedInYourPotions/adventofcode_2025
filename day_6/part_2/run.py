@@ -3,7 +3,7 @@ from collections.abc import Generator
 
 day = 6
 part = 2
-input_file_name = 'input.txt'
+input_file_name = 'test_input.txt'
 
 input_file = f'./day_{day}/part_{part}/{input_file_name}'
 
